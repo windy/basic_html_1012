@@ -1,0 +1,46 @@
+```
+.git/
+.1024.nix
+.1024feature*
+.nfs*
+*.dll
+*.swp
+.paas-unit-*
+core.*
+.breakpoints
+.idea/
+.vscode/
+# Clacky Env Files
+.env
+.env.local
+.env.*.local
+
+# System and Version Control Files
+DS_Store
+Thumbs.db
+.svn/
+.hg/
+*.lock
+
+# Dependencies and Build Artifacts
+node_modules/
+bower_components/
+dist/
+build/
+*.tgz
+
+# Logs
+logs/
+*.log
+
+# Temporary and Backup Files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# JavaScript language files
+*.js.map
+*.jdbg
+```
