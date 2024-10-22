@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    const greetings = ["你好！", "欢迎！", "很高兴见到你！", "祝你今天愉快！"];
+    const greetings = ["Hello!", "Welcome!", "Nice to meet you!", "Have a great day!"];
     let currentIndex = 0;
 
     $("#changeGreeting").click(function() {
