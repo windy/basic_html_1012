@@ -18,12 +18,9 @@ core.*
 coverage/
 
 # System and Version Control Files
-DS_Store
-Thumbs.db
-.svn/
-.hg/
-*.lock
+.git/
 .DS_Store
+Thumbs.db
 .nfs*
 
 # Dependencies and Build Artifacts
@@ -37,6 +34,12 @@ build/
 # Logs
 logs/
 *.log
+*.tmp
+*.bak
+*.old
+*.pid
+*.seed
+*.pid.lock
 
 # Temporary and Backup Files
 *.tmp
@@ -66,3 +69,41 @@ yarn-error.log*
 *.env.development.local
 *.env.test.local
 *.env.production.local
+
+# Clacky Env Files
+.1024.nix
+.1024nix
+.1024feature-file
+.1024feature*
+*.dll
+.paas-unit-*
+.breakpoints
+core.*
+coverage/
+
+# System and Version Control Files
+.git/
+.DS_Store
+Thumbs.db
+.nfs*
+
+# Dependencies and Build Artifacts
+node_modules/
+.pnpm-store/
+dist/
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.bak
+*.old
+*.pid
+*.seed
+*.pid.lock
+
+# JavaScript/TypeScript specific ignores
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.tsbuildinfo
