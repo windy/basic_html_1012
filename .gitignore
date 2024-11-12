@@ -1,38 +1,30 @@
-.git/
+### Clacky Env Files
 .1024.nix
-.1024feature*
-.nfs*
-*.dll
-*.swp
-.paas-unit-*
-core.*
-.breakpoints
-.idea/
-.vscode/
-# Clacky Env Files
-.env
-.env.local
-.env.*.local
 .1024nix
 .1024feature-file
+.1024feature*
+*.dll
+.paas-unit-*
+.breakpoints
+core.*
 coverage/
 
-# System and Version Control Files
+### System and Version Control Files
 .git/
 .DS_Store
 Thumbs.db
 .nfs*
 
-# Dependencies and Build Artifacts
+### Dependencies and Build Artifacts
 node_modules/
-bower_components/
-dist/
 .pnpm-store/
-build/
-*.tgz
+dist/
+.env
+venv/
+vendor/
+cython_debug/
 
-# Logs
-logs/
+### Logs, Temporary, and Backup Files
 *.log
 *.tmp
 *.bak
@@ -41,67 +33,14 @@ logs/
 *.seed
 *.pid.lock
 
-# Temporary and Backup Files
-*.tmp
-*.temp
-*.bak
-*.swp
-*.swo
-*.old
-*.pid
-*.seed
-*.pid.lock
-
-# JavaScript language files
-*.js.map
-*.jdbg
-
-# Additional JavaScript/TypeScript Files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-*.tsbuildinfo
-
-# Environment and Configuration Files
+### Environment and Configuration Files
 .env
 *.env.local
 *.env.development.local
 *.env.test.local
 *.env.production.local
 
-# Clacky Env Files
-.1024.nix
-.1024nix
-.1024feature-file
-.1024feature*
-*.dll
-.paas-unit-*
-.breakpoints
-core.*
-coverage/
-
-# System and Version Control Files
-.git/
-.DS_Store
-Thumbs.db
-.nfs*
-
-# Dependencies and Build Artifacts
-node_modules/
-.pnpm-store/
-dist/
-
-# Logs and Temporary Files
-*.log
-*.tmp
-*.bak
-*.old
-*.pid
-*.seed
-*.pid.lock
-
-# JavaScript/TypeScript specific ignores
+### JavaScript/TypeScript
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
