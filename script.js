@@ -9,4 +9,8 @@ $(document).ready(function() {
         // 添加一个简单的动画效果
         $("#greeting").hide().fadeIn(500);
     });
+
+    $("#alertButton").click(function() {
+        alert("OK");
+    });
 });
