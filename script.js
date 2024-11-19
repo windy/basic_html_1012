@@ -9,4 +9,9 @@ $(document).ready(function() {
         // 添加一个简单的动画效果
         $("#greeting").hide().fadeIn(500);
     });
+
+    // 添加点击事件监听器
+    $("#clickMe").click(function() {
+        alert("OK");
+    });
 });
