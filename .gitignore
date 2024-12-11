@@ -1,0 +1,15 @@
+# Clacky-related configuration
+.1024*
+!.1024
+
+# Language-specific files
+# (Add any language-specific ignore patterns here)
+
+# Framework-related files
+# (Add any framework-related ignore patterns here)
+
+# Package manager directories
+# (Add any package manager directories to ignore here)
+
+# Others
+# (Add additional ignore patterns here)
