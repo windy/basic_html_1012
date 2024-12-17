@@ -1,12 +1,19 @@
 # Clacky-related configuration
 .1024*
 !.1024
+.breakpoints
 
 # Language-specific files
-# (Add any language-specific ignore patterns here)
+node_modules/
+*.log
+*.tmp
+*.temp
 
 # Framework-related files
-# (Add any framework-related ignore patterns here)
+.idea/
+.vscode/
+npm-debug.log*
+dist/
 
 # Package manager directories
 # (Add any package manager directories to ignore here)
