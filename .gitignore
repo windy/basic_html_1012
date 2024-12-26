@@ -1,0 +1,17 @@
+.1024*
+!.1024
+.breakpoints
+
+# Clacky-related configuration
+# Add any specific configuration files or directories that should be ignored
+
+# Language-specific files
+# Ignore compiled binaries, cache files, etc.
+
+# Framework-related files
+# Ignore build output, temporary files, etc.
+
+# Package manager directories
+node_modules/
+vendor/
+```
