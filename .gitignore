@@ -1,0 +1,14 @@
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Language-specific files
+# Add any language-specific file entries here
+
+# Framework-related files
+# Add any framework-specific file entries here
+
+# Package manager directories
+node_modules/
+vendor/
