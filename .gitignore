@@ -1,4 +1,9 @@
-#.1024*
+# Clacky Project .gitignore File
+
+# Clacky-related configuration
+.1024*
 !.1024
 .breakpoints
-node_modules
+
+# Node.js dependencies
+node_modules/
